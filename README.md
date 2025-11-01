@@ -1,6 +1,4 @@
 # level2-task5
-
-Result Size: 741 x 583
 #include <iostream>
 using namespace std;
 ​
