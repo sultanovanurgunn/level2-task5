@@ -1,1 +1,31 @@
 # level2-task5
+
+Result Size: 741 x 583
+#include <iostream>
+using namespace std;
+​
+int main() {
+  int bal = 93;
+  cout<< "imtahan balini daxil edin"<< endl;
+  cin>>bal;
+   
+  if (bal>=0 & bal<=50){
+  cout << "F" << endl;
+  }
+  else if (bal>=51 & bal<=60){
+  cout<< "E" << endl;
+  }
+  else if (bal>=61 & bal<=70){
+  cout<< "D" << endl;
+  }
+  else if (bal>=71 & bal<=80){
+  cout << "C" << endl;
+  }
+  else if (bal>=81 & bal<=90){
+  cout << "B" << endl;
+  }
+  else 
+  cout<< "A";
+  return 0;
+}
+​
